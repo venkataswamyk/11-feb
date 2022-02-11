@@ -1,0 +1,26 @@
+sno=int(input('enter sno:'))
+sname=input('enter sname:'))
+s1=int(input('enter python marks:'))
+s2=int(input('enter java marks:'))
+s3=int(input('enter os marks:'))
+s4=int(input('enter afm marks:'))
+s5=int(input('enter ds marks:'))
+s6=int(input('enter dbms marks:'))
+total=s1+s2+s3+s4+s5+s6
+avg=total/6
+print('total marks:',total)
+print('average marks:',avg)
+if avg>=91:
+print('o-grade')
+elif avg>=81:
+print('a-grade')
+elif avg>=71:
+print('b-grade')
+elif avg>=61:
+print('c-grade')
+elif avg>=51:
+print('d-grade')
+elif avg>=40:
+print('pass')
+else:
+print('fail')
